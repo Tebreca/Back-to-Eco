@@ -1,0 +1,16 @@
+[
+{
+  "modid": "Back_To_Eco",
+  "name": "Back To Eco",
+  "description": "An magic/Exploration mod",
+  "version": "1.0.0",
+  "mcversion": "1.10.2",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["EagleDev", "Igrek],
+  "credits": "The creator of the mod:eaglegaming11, The ideas:Igrek",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
