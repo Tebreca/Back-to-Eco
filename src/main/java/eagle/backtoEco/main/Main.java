@@ -1,6 +1,6 @@
 package eagle.backtoEco.main;
 
-import eagle.backtoEco.items.ItemHandler;
+import eagle.backtoEco.items.Items;
 import eagle.backtoEco.proxy.ClientP;
 import eagle.backtoEco.proxy.ServerP;
 import net.minecraftforge.fml.common.Mod;
@@ -17,8 +17,8 @@ public class Main {
 	
 	@EventHandler
 	public static void PreInit(FMLPreInitializationEvent event){
-		ItemHandler.init();
-		ItemHandler.register();
+		Items.init();
+		Items.register();
 		
 	}
 	
