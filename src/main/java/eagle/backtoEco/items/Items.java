@@ -7,19 +7,19 @@ import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
-public class ItemHandler {
+public class Items {
 	
-	public static Item naturepowder;
+	public static Item biomestone;
 	
 	public static void init(){
-		naturepowder = new Item().setCreativeTab(CreativeTabs.MATERIALS).setMaxStackSize(64).setUnlocalizedName("naturepowder");
+		biomestone = new Item().setCreativeTab(CreativeTabs.MATERIALS).setMaxStackSize(64).setUnlocalizedName("biomestone");
 	}
 	
 	public static void register(){
-		GameRegistry.registerItem(naturepowder, naturepowder.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(biomestone, biomestone.getUnlocalizedName().substring(5));
 	}
 	public static void registerrenders(){
-		registerrender(naturepowder);
+		registerrender(biomestone);
 	}
 	
 	

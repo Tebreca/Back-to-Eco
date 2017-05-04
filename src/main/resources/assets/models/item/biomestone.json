@@ -1,11 +1,7 @@
 {
-
     "parent": "item/generated",
-
     "textures": {
-
-        "layer0": "backtoEco:items/naturepowder"
-
+        "layer0": "backtoEco:items/biomestone"
     }
 
 }
